@@ -7,6 +7,10 @@
     max-width: 800px ;
 }
 
+.sheet-titulo {
+    color: rgb(0, 118, 136);
+    text-shadow: 1px 1px 1px;
+}
 
 .sheet-logo {
     padding: 0px;
