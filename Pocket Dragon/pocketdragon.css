@@ -1,0 +1,35 @@
+/* pra evitar que a ficha se expandar quando der resize na janela */
+
+/* Toda chamada de classe deve ser precedida de .sheet- */
+
+.sheet-ficha-toda {
+    min-width: 800px;
+    max-width: 800px ;
+}
+
+
+.sheet-logo {
+    padding: 0px;
+    margin-top: -50px;
+}
+
+
+.sheet-titulo {
+    text-align: left;
+    margin-top: 15px;
+    
+}
+
+.sheet-base   {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+
+.sheet-2colrow {
+    margin: 15px;
+}
+
+.sheet-col {
+    align-items: center;
+}
