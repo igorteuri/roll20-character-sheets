@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English|Inknut+Antiqua&display=swap');
 
+/* Preventing the sheet to stretch and resize logos*/
+.sheet-whole {
+  min-width: 800px;
+  max-width: 1000px;
+}
+
 /* announcements */
 .sheet-announcements-show {
   font-size: 0.85em;
@@ -837,8 +843,17 @@ input.sheet-tab.sheet-settings:checked::after {
 }
 
 .sheet-logo {
-  min-width: 820px;
-  max-height: 56px;
+  height: 5em;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  display: block;
+  float: right;
+  text-align: right;
+}
+
+img.sheet-logo-fl {
+  min-width: 680px;
+  max-height: 216;
   margin-bottom: -2px;
   text-align: right;
 }
