@@ -844,7 +844,9 @@ input.sheet-tab.sheet-settings:checked::after {
 
 .sheet-logo-sagen {
   display: block;
-  float: left;
+  float: right;
+  height: 5em;
+  margin-right: 15px;
 }
 
 .sheet-logo-fl {
@@ -1941,6 +1943,7 @@ input.sheet-monster_only:checked
   grid-row-gap: 10px;
   grid-template-columns: 5em auto;
   grid-template-rows: 3em auto auto auto;
+  margin-bottom: 40px;
 }
 
 .sheet-appearance-grid > div:first-child {
