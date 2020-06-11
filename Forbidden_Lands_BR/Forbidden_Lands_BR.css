@@ -842,7 +842,12 @@ input.sheet-tab.sheet-settings:checked::after {
   background-color: inherit;
 }
 
-.sheet-logo {
+.sheet-logo-sagen {
+  display: block;
+  float: left;
+}
+
+.sheet-logo-fl {
   height: 5em;
   margin-bottom: 3px;
   margin-right: 3px;
@@ -851,9 +856,9 @@ input.sheet-tab.sheet-settings:checked::after {
   text-align: right;
 }
 
-img.sheet-logo-fl {
-  min-width: 680px;
-  max-height: 216;
+.sheet-logo {
+  min-width: 820px;
+  max-height: 56px;
   margin-bottom: -2px;
   text-align: right;
 }
